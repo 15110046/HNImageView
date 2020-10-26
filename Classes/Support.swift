@@ -5,22 +5,17 @@
 
 import UIKit
 
-//extension NSNotification.Name {
-//    
-//    public static let CellisZooming = Notification.Name("CellisZooming")
-//    public static let CellStopZoom = Notification.Name("CellStopZoom")
-//
-//}
-
 extension UIView {
-
+    
     var globalFrame :CGRect? {
         return self.superview?.convert(self.frame, to: nil)
     }
     
 }
 public extension UIImage {
-  public var hasContent: Bool {
-    return cgImage != nil || ciImage != nil
-  }
+    
+    var hasContent: Bool {
+        return cgImage != nil || ciImage != nil
+    }
+    
 }
