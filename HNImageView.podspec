@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HNImageView'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of HNImageView.'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,11 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/**/*.{h,m,swift}'
   
+  s.swift_version = '4.2'
+  
+  s.platforms = {
+      "ios": "11.0"
+  }
   # s.resource_bundles = {
   #   'HNImageView' => ['HNImageView/Assets/*.png']
   # }
