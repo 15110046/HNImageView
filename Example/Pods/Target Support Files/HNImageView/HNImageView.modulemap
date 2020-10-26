@@ -1,0 +1,6 @@
+framework module HNImageView {
+  umbrella header "HNImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

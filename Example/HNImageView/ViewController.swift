@@ -10,15 +10,43 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var collectionView: UICollectionView!
+    
+    let identifierCell = "MediaCell"
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        viewIsReady()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func viewIsReady() {
+        collectionView.register(UINib(nibName: identifierCell, bundle: nil), forCellWithReuseIdentifier: identifierCell)
+        collectionView.delegate = self
+        collectionView.dataSource = self
     }
-
+    
+    deinit {}
 }
 
+extension ViewController: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifierCell, for: indexPath)
+        return cell
+    }
+    
+    
+}
+
+extension ViewController: UICollectionViewDelegate {
+    
+}
+
+extension ViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: (collectionView.frame.width-10)/2, height: 300)
+    }
+}

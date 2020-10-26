@@ -1,0 +1,16 @@
+PODS:
+  - HNImageView (0.1.0)
+
+DEPENDENCIES:
+  - HNImageView (from `../`)
+
+EXTERNAL SOURCES:
+  HNImageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HNImageView: a65e2ec8d159b032cd8ef63c3c8fa1e63498b1cc
+
+PODFILE CHECKSUM: befb9a782c0bd1f3044785458b5927ec526312b7
+
+COCOAPODS: 1.10.0.rc.1

@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8095D01F58EC45786DE8D942 /* Pods_HNImageView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62F4CD01B77E45C7E697A89 /* Pods_HNImageView_Tests.framework */; };
+		9307907B2546796B006404DC /* MediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930790792546796B006404DC /* MediaCell.swift */; };
+		9307907C2546796B006404DC /* MediaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9307907A2546796B006404DC /* MediaCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		025478D512B277EFFF855771 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		025478D512B277EFFF855771 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0CEC503AFBF8106F8A32FFEA /* Pods-HNImageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNImageView_Example.release.xcconfig"; path = "Target Support Files/Pods-HNImageView_Example/Pods-HNImageView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HNImageView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNImageView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +45,11 @@
 		6F76AB8273DBD4813CE2A050 /* Pods_HNImageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HNImageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		701EA20AA143C0C9926147A4 /* Pods-HNImageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNImageView_Tests.release.xcconfig"; path = "Target Support Files/Pods-HNImageView_Tests/Pods-HNImageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		894A100F699B51005FC3DCB5 /* Pods-HNImageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNImageView_Example.debug.xcconfig"; path = "Target Support Files/Pods-HNImageView_Example/Pods-HNImageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		930790792546796B006404DC /* MediaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaCell.swift; sourceTree = "<group>"; };
+		9307907A2546796B006404DC /* MediaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaCell.xib; sourceTree = "<group>"; };
 		AB9FDA68A16F8A248DDB4557 /* Pods-HNImageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNImageView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HNImageView_Tests/Pods-HNImageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C62781B9F8CE0E17133BB156 /* HNImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HNImageView.podspec; path = ../HNImageView.podspec; sourceTree = "<group>"; };
-		F25A977A132E619D1BBBAAE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C62781B9F8CE0E17133BB156 /* HNImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HNImageView.podspec; path = ../HNImageView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F25A977A132E619D1BBBAAE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F62F4CD01B77E45C7E697A89 /* Pods_HNImageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HNImageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,6 +106,7 @@
 		607FACD21AFB9204008FA782 /* Example for HNImageView */ = {
 			isa = PBXGroup;
 			children = (
+				930790782546796B006404DC /* Cells */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -148,6 +153,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		930790782546796B006404DC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				930790792546796B006404DC /* MediaCell.swift */,
+				9307907A2546796B006404DC /* MediaCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		B5B6072A1AEA1F7B5C1333E4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +170,6 @@
 				AB9FDA68A16F8A248DDB4557 /* Pods-HNImageView_Tests.debug.xcconfig */,
 				701EA20AA143C0C9926147A4 /* Pods-HNImageView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +240,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -248,6 +262,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				9307907C2546796B006404DC /* MediaCell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9307907B2546796B006404DC /* MediaCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
