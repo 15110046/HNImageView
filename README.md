@@ -9,6 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+# ExampleZoomMediaInCell
+[![Demo Zoom Media in Cell](https://media.giphy.com/media/VEWLDdxNgM3KQyVacM/giphy.gif)](https://www.youtube.com/watch?v=BujBWlJVpT4)
+
 ## Requirements
 
 ## Installation
