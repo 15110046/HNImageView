@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HNImageView_Example' do
+  pod 'HNImageView', :path => '../'
+
+  target 'HNImageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
