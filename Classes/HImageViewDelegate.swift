@@ -4,9 +4,7 @@
 //
 
 import UIKit
-
-public protocol HImageViewDelegate: class {
-    
-    func output(scale: CGFloat, frameImageView: CGRect)
-    
+ 
+public protocol HNImageViewDelegate: class {
+    func hnImageView(state: HNImageView.StateZoomImageView)
 }

@@ -8,22 +8,24 @@
 
 import UIKit
 import HNImageView
-class MediaCell: UICollectionViewCell {
 
-    @IBOutlet weak var imageView: HImageView!
+class MediaCell: UICollectionViewCell {
+    
+    @IBOutlet weak var imageView: HNImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-        let configZoom = HImageViewConfigure(backgroundColor: .black,
+        
+        let configZoomImageView = HNImageViewConfigure(backgroundColor: .black,
                                              durationDismissZoom: 0.2,
                                              maxZoom: 3,
                                              minZoom: 0.8,
                                              vibrateWhenStop: false,
                                              autoStopWhenZoomMin: false,
                                              isUpdateAlphaWhenHandle: true)
-        imageView.config(configZoom)
-        imageView.image = UIImage.init(named: ["a","c","d"].randomElement() ?? "a")
+        imageView.config(configZoomImageView)
+        
+        imageView.image = UIImage.init(named: ["pic1", "pic2", "pic3", "pic4", "pic5"].randomElement() ?? "pic1")
     }
     
     override func prepareForReuse() {

@@ -5,7 +5,7 @@
 
 import UIKit
 
-extension HImageView: UIGestureRecognizerDelegate {
+extension HNImageView: UIGestureRecognizerDelegate {
     
     public func gestureRecognizer(
         _ gestureRecognizer: UIGestureRecognizer,

@@ -14,10 +14,10 @@
 		5E7390AF138565D53C1146519FBFFC06 /* Pods-HNImageView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6792286660CDE9EFDBB953DECEB426 /* Pods-HNImageView_Example-dummy.m */; };
 		789264AED9EB54F195D7F67594733E89 /* Pods-HNImageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A8589552B593FE64CB044D8A8AD3CE3 /* Pods-HNImageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9307907225467857006404DC /* HImageViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307906C25467857006404DC /* HImageViewDelegate.swift */; };
-		9307907325467857006404DC /* HImageViewConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307906D25467857006404DC /* HImageViewConfigure.swift */; };
-		9307907425467857006404DC /* ExtensionHUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307906E25467857006404DC /* ExtensionHUIImageView.swift */; };
+		9307907325467857006404DC /* HNImageViewConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307906D25467857006404DC /* HNImageViewConfigure.swift */; };
+		9307907425467857006404DC /* ExtensionHNImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307906E25467857006404DC /* ExtensionHNImageView.swift */; };
 		9307907525467857006404DC /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307906F25467857006404DC /* Support.swift */; };
-		9307907625467857006404DC /* HUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307907025467857006404DC /* HUIImageView.swift */; };
+		9307907625467857006404DC /* HNImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307907025467857006404DC /* HNImageView.swift */; };
 		9307907725467857006404DC /* ExtensionGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307907125467857006404DC /* ExtensionGestureRecognizerDelegate.swift */; };
 		B0B3CBB377C0CDBD727A63226813CFD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D64C4D89EB379570C44325E26D9EAC47 /* HNImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9703EAD19DA73907DB52B40D1199F683 /* HNImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,10 +64,10 @@
 		87D1D5D0CC298A93BC7463D4B085E08B /* Pods-HNImageView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HNImageView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9014BF6C18D51E7ED87E9E7D792D9804 /* HNImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HNImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9307906C25467857006404DC /* HImageViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HImageViewDelegate.swift; sourceTree = "<group>"; };
-		9307906D25467857006404DC /* HImageViewConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HImageViewConfigure.swift; sourceTree = "<group>"; };
-		9307906E25467857006404DC /* ExtensionHUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionHUIImageView.swift; sourceTree = "<group>"; };
+		9307906D25467857006404DC /* HNImageViewConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNImageViewConfigure.swift; sourceTree = "<group>"; };
+		9307906E25467857006404DC /* ExtensionHNImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionHNImageView.swift; sourceTree = "<group>"; };
 		9307906F25467857006404DC /* Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
-		9307907025467857006404DC /* HUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUIImageView.swift; sourceTree = "<group>"; };
+		9307907025467857006404DC /* HNImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNImageView.swift; sourceTree = "<group>"; };
 		9307907125467857006404DC /* ExtensionGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionGestureRecognizerDelegate.swift; sourceTree = "<group>"; };
 		9703EAD19DA73907DB52B40D1199F683 /* HNImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HNImageView-umbrella.h"; sourceTree = "<group>"; };
 		9A06D968A878D716065CF6C51A2FB801 /* HNImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HNImageView.modulemap; sourceTree = "<group>"; };
@@ -174,10 +174,10 @@
 			isa = PBXGroup;
 			children = (
 				9307907125467857006404DC /* ExtensionGestureRecognizerDelegate.swift */,
-				9307906E25467857006404DC /* ExtensionHUIImageView.swift */,
-				9307906D25467857006404DC /* HImageViewConfigure.swift */,
+				9307906E25467857006404DC /* ExtensionHNImageView.swift */,
+				9307906D25467857006404DC /* HNImageViewConfigure.swift */,
 				9307906C25467857006404DC /* HImageViewDelegate.swift */,
-				9307907025467857006404DC /* HUIImageView.swift */,
+				9307907025467857006404DC /* HNImageView.swift */,
 				9307906F25467857006404DC /* Support.swift */,
 			);
 			path = Classes;
@@ -398,10 +398,10 @@
 				9307907725467857006404DC /* ExtensionGestureRecognizerDelegate.swift in Sources */,
 				9307907225467857006404DC /* HImageViewDelegate.swift in Sources */,
 				9307907525467857006404DC /* Support.swift in Sources */,
-				9307907325467857006404DC /* HImageViewConfigure.swift in Sources */,
+				9307907325467857006404DC /* HNImageViewConfigure.swift in Sources */,
 				FA03E8CD41455E30524E1DC8FA791EA4 /* HNImageView-dummy.m in Sources */,
-				9307907425467857006404DC /* ExtensionHUIImageView.swift in Sources */,
-				9307907625467857006404DC /* HUIImageView.swift in Sources */,
+				9307907425467857006404DC /* ExtensionHNImageView.swift in Sources */,
+				9307907625467857006404DC /* HNImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
