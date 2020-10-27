@@ -17,6 +17,10 @@
 ```ruby
 pod 'HNImageView'
 ```
+## Example
+For a detailed example, see the Example!
+[Example!](https://github.com/15110046/HNImageView/tree/master/Example).
+
 
 ## Author
 
