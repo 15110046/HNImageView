@@ -6,9 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/HNImageView.svg?style=flat)](https://cocoapods.org/pods/HNImageView)
 
 ## Demo
-[[Demo Zoom Media in Cell](https://media.giphy.com/media/cVo8DY8s5sS8CKjuFJ/giphy.gif)](https://www.youtube.com/watch?v=QH3bCLidm7M)
-
-## Requirements
+[![Demo Zoom Media in Cell](https://media.giphy.com/media/cVo8DY8s5sS8CKjuFJ/giphy.gif)](https://www.youtube.com/watch?v=QH3bCLidm7M)
 
 ## Install
 
@@ -49,7 +47,7 @@ class MediaCell: UICollectionViewCell {
     }
 }
 ```
-![alt text](https://drive.google.com/file/d/1grFqOzcBeFutKzsXFdLIWYmA23K5CQyz/view?usp=sharing)
+[alt text](https://drive.google.com/file/d/1grFqOzcBeFutKzsXFdLIWYmA23K5CQyz/view?usp=sharing)
 
 ## Author
 
