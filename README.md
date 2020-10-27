@@ -47,7 +47,7 @@ class MediaCell: UICollectionViewCell {
     }
 }
 ```
-[alt text](https://drive.google.com/file/d/1grFqOzcBeFutKzsXFdLIWYmA23K5CQyz/view?usp=sharing)
+![ ](https://drive.google.com/file/d/1grFqOzcBeFutKzsXFdLIWYmA23K5CQyz/view?usp=sharing)
 
 ## Author
 
