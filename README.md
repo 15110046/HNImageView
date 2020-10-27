@@ -50,7 +50,7 @@ class MediaCell: UICollectionViewCell {
     }
 }
 ```
-[![Interface Builder](https://drive.google.com/file/d/1grFqOzcBeFutKzsXFdLIWYmA23K5CQyz/view?usp=sharing)]
+[Interface Builder](https://drive.google.com/file/d/1grFqOzcBeFutKzsXFdLIWYmA23K5CQyz/view?usp=sharing)
 
 ## Author
 
