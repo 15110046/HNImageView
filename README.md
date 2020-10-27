@@ -5,9 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/HNImageView.svg?style=flat)](https://cocoapods.org/pods/HNImageView)
 [![Platform](https://img.shields.io/cocoapods/p/HNImageView.svg?style=flat)](https://cocoapods.org/pods/HNImageView)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Demo
 [![Demo Zoom Media in Cell](https://media.giphy.com/media/cVo8DY8s5sS8CKjuFJ/giphy.gif)](https://www.youtube.com/watch?v=QH3bCLidm7M)
 
 ## Requirements
@@ -27,4 +25,5 @@ pod 'HNImageView'
 ## License
 
 HNImageView is available under the MIT license. See the LICENSE file for more info.
+
 Copyright (c) 2020 HieuNguyen
