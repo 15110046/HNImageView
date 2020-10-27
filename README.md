@@ -21,6 +21,36 @@ pod 'HNImageView'
 For a detailed example, see the Example!
 [Example!](https://github.com/15110046/HNImageView/tree/master/Example).
 
+```swift
+
+import HNImageView
+
+class MediaCell: UICollectionViewCell {
+    
+    @IBOutlet weak var imageView: HNImageView!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        let configZoomImageView = HNImageViewConfigure(backgroundColor: .black,
+                                             durationDismissZoom: 0.2,
+                                             maxZoom: 3,
+                                             minZoom: 0.8,
+                                             vibrateWhenStop: false,
+                                             autoStopWhenZoomMin: false,
+                                             isUpdateAlphaWhenHandle: true)
+        imageView.config(configZoomImageView)
+        
+        imageView.image = UIImage.init(named: ["pic1", "pic2", "pic3", "pic4", "pic5"].randomElement() ?? "pic1")
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        imageView.prepareForReuse()
+    }
+}
+
+```
 
 ## Author
 
