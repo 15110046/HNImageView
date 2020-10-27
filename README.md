@@ -12,10 +12,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-## Installation
+## Install
 
-HNImageView is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+[CocoaPods](https://cocoapods.org)
 
 ```ruby
 pod 'HNImageView'
@@ -28,3 +27,4 @@ pod 'HNImageView'
 ## License
 
 HNImageView is available under the MIT license. See the LICENSE file for more info.
+Copyright (c) 2020 HieuNguyen
