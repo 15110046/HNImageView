@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
   
   s.platforms = {
-      "ios": "11.0"
+      "ios": "10.0"
   }
   # s.resource_bundles = {
   #   'HNImageView' => ['HNImageView/Assets/*.png']
